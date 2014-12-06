@@ -21,11 +21,11 @@
 
   <?php if ($content['top']): ?>
     <div class="container">
-    <div class="row">
+    
       <div class="col-sm-12">
       <?php print $content['top']; ?>
     </div>
-    </div>    
+   
   </div>
   <?php endif; ?>
 
@@ -44,7 +44,7 @@
       </div>  
      <?php endif; ?>
 
-    </div>
+     </div>
   </div>
 
 

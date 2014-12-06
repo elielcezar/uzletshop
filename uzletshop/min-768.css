@@ -6,28 +6,15 @@
 
 
 	/* carrinho */
-	/*header .carrinho{
-		float: right;
-		background: #f5f5f5 url(images/ico_carrinho.png) 5px 12px no-repeat;
-		padding: 15px 10px 15px 50px;
-		height: 50px;	
-	}
-	header .carrinho .cart-contents .view-content,
-	header .carrinho .cart-contents #topnav2,
-	header .carrinho .cart-contents .line-item-total-label{display:none;}
-	header .carrinho .view-footer{min-width: 130px;}*/
-	
-	
 	header .carrinho .contextual-links-trigger{display: none !important;}
 	header .carrinho #block-commerce-cart-cart{	
 		float: right;		
 		width: 45px;
 		height: 42px;	
 		cursor: pointer;
-		margin-top: 5px;
+		margin-top: 0;
 		position: relative;
-		background: transparent url(images/ico_carrinho.png) 5px 12px no-repeat;
-		
+		background: transparent url(images/ico_carrinho.png) 5px 7px no-repeat;		
 	}
 	header .carrinho #block-commerce-cart-cart .cart-contents,
 	header .carrinho #block-commerce-cart-cart .cart-empty-block{
@@ -45,43 +32,7 @@
 		border-radius: 5px;
 		border: 1px solid #ccc;
 	}
-	/*header .carrinho #block-commerce-cart-cart .cart-contents .views-table{width: 100%;}
-	header .carrinho #block-commerce-cart-cart .cart-contents .views-table tr{border: 1px solid #fff;}
-	header .carrinho #block-commerce-cart-cart .cart-contents .views-table td{
-		background: #fff;
-		border: none;
-		padding: 0 5px;
-	}
-	header .carrinho #block-commerce-cart-cart .cart-contents .line-item-total{
-		margin: 15px 0;
-		padding: 5px 0;
-		border-top: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
-	}
-	header .carrinho #block-commerce-cart-cart .cart-contents .line-item-quantity{display: none;}
-	header .carrinho #block-commerce-cart-cart .cart-contents .line-item-summary-checkout a{
-		border-radius: 3px;
-		background: #e7511e;
-		color: #fff;
-		padding: 7px 10px;
-		display: block;
-		margin: 0 15px 0 0;	
-		font-family: 'Nexa Heavy', sans-serif;
-	}
-	header .carrinho #block-commerce-cart-cart .cart-contents .line-item-summary-view-cart a{
-		border-radius: 3px;
-		background: #f5f5f5;	
-		padding: 7px 10px;
-		display: block;
-		margin: 0 15px 0 0;	
-		font-family: 'Nexa Heavy', sans-serif;
-		border: 1px solid #ccc;
-	}
-	header .carrinho #block-commerce-cart-cart .cart-contents .line-item-summary-view-cart a:hover,
-	header .carrinho #block-commerce-cart-cart .cart-contents .line-item-summary-checkout a:hover{
-		background: #333 !important;
-		color: #fff;
-	}*/
+	
 	
 	/* exibe informaçõe no mouse over*/
 	header .carrinho:hover .cart-contents .view-content,

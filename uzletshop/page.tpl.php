@@ -98,7 +98,7 @@
       
     
    
-              <?php print render($page['content']); ?>
+              <div class="row"><?php print render($page['content']); ?></div>
 
 
    
@@ -120,8 +120,8 @@
                 <span>
                   <a href="http://shop.uzlet.com.br">Home</a> <br />
                   <a href="http://shop.uzlet.com.br/smartphones">Smartphones</a> <br />
-                  <a href="http://shop.uzlet.com.br/certificado-uzlet-de-garantia">Garantia</a> <br />
                   <a href="http://shop.uzlet.com.br/sobre-o-uzlet">Sobre o Uzlet</a> <br />
+                  <a href="http://shop.uzlet.com.br/certificado-uzlet-de-garantia">Garantia</a> <br />                  
                   <a href="http://shop.uzlet.com.br/contato">Contato<br /> </a>
                 </span>
               </div><!-- links extras -->
@@ -136,6 +136,8 @@
               Uzlet 2014 &copy; Todos os direitos reservados - Desenvolvido por <a href="http://agenciam2e.com.br" target="_blank">M2E Comunicação Digital</a>
           </div>
       </div>
+
+      
 </footer>    
 
 

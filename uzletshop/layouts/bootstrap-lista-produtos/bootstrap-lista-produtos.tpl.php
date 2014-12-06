@@ -29,7 +29,7 @@
   <?php endif; ?>
 
   <div class="container">
-    <div class="row">       
+    
     <div class="panel-col-first panel-panel col-sm-3">
      <?php 
         if ($content['left']): print $content['left']; endif; 
@@ -40,7 +40,7 @@
           <?php if  ($content['right']): print $content['right']; endif; ?>            
       </div>      
       
-  </div>
+  
   </div>
 
 

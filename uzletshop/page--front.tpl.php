@@ -73,7 +73,7 @@
                       <img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzletshop/images/banner-facilidades.png" class="img-responsive banner-facilidades" />
                    </div>
                    <div class="col-sm-4"> 
-                      <span class="botao"><a href="http://uzlet.com.br">Quero Vender Meu Celular</a></span>
+                      <a class="botao" href="http://uzlet.com.br">Quero Vender Meu Celular</a>
                    </div>
               </div><!-- row -->   
 
@@ -199,8 +199,8 @@
                 <span>
                   <a href="http://shop.uzlet.com.br">Home</a> <br />
                   <a href="http://shop.uzlet.com.br/smartphones">Smartphones</a> <br />
-                  <a href="http://shop.uzlet.com.br/certificado-uzlet-de-garantia">Garantia</a> <br />
                   <a href="http://shop.uzlet.com.br/sobre-o-uzlet">Sobre o Uzlet</a> <br />
+                  <a href="http://shop.uzlet.com.br/certificado-uzlet-de-garantia">Garantia</a> <br />                  
                   <a href="http://shop.uzlet.com.br/contato">Contato<br /> </a>
                 </span>
               </div><!-- links extras -->
