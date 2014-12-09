@@ -74,10 +74,6 @@
 			$('.page-checkout .form-type-textfield form-item-customer-profile-shipping-commerce-customer-address-und-0-locality').hide();
 
 			
-
-
-
-
 			/* redireciona para o site de pagamento (Pagseguro/Paypal) */
 			$('.page-checkout-payment #principal h1 , .page-checkout-payment #principal .content').hide();
 			$('.page-checkout-payment #principal').append('<h3>Aguarde, você será redirecionado para realizar o pagamento.</h3><br/><br/><br/><img src="http://shop.uzlet.com.br/sites/all/themes/uzletshop/images/loading.gif" />');
@@ -120,12 +116,16 @@
 			
    			/*--- perfil do usuario ------------------------------------------------------------------------------*/			
 			$( ".page-user-me-edit #edit-profile-main-field-cpf-und-0-value" ).attr( "disabled", true);  
+			
 			/*--- pagina de uma venda --------------------------------------------------------------------------*/
 			/* traducoes forcadas */
 			$('.page-vendas #principal .commerce-price-formatted-components td.component-title').replaceWith('<td class="component-title">Total da Venda</td>');
 			$('.page-vendas #principal table th.views-field-field-observacoes').prepend('Observações');
+			
 			/*--- editar uma venda especifica -----------------------------------------------------*/
-			$('.page-admin-commerce-orders-edit #edit-commerce-line-items-und-actions-line-item-add').val('Adicionar Produto')
+			$('.page-admin-commerce-orders-edit #edit-commerce-line-items-und-actions-line-item-add').val('Adicionar Produto');
+
+			$('.page-admin-commerce-orders-edit .form-item-status optgroup[label="Pendente"]').attr('label','-');			
 			
 			/*--- login --------------------------------------------------------------------------------*/
 			$('.toboggan-unified').addClass('row')
@@ -135,6 +135,12 @@
    			$('#edit-profile-main-field-telefone-und-0-value').mask('(99)9999-9999?99');
    			$('#edit-profile-main-field-cep-und-0-value').mask('99999-999');			
    			$('.page-user select#edit-profile-main-field-estado2-und option[value=\"_none\"]').text("Selecione um Estado"); 
+
+   			/*--- pagina com todas as vendas -----------------------------------------------------------------*/
+   			/* remove a palavra (Pendente) da lista de status */
+   			$('.vendas-concluidas #edit-status-2 option').text(function(_, text) {
+			    return text.replace(/\(.*?\)/, '');
+			});
    			
 			
 		

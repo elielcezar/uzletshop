@@ -334,7 +334,7 @@ header .navbar ul li ul li a:hover{background-color: #000 !important;}
 	float: left; 	
 	padding: 0;
 	margin: 0;
-	width: 33.33%;
+	width: 50%;
 	text-align: center;
 }
 #menu-admin li a{
@@ -938,8 +938,7 @@ body.page-user,
 
 /*--- PAGINA LISTANDO TODAS AS VENDAS DO SITE -------------------------------------------------------*/
 .usuarios div.container.container-principal,
-.vendas-concluidas div.container.container-principal,
-.vendas-pendentes div.container.container-principal{
+.vendas-geral div.container.container-principal{
 	float: left; 
 	max-width: 100% !important; 
 	width: 100% !important;	
@@ -947,53 +946,46 @@ body.page-user,
 }
 
 .usuarios .views-exposed-widgets .views-exposed-widget,
-.vendas-concluidas .views-exposed-widgets .views-exposed-widget,
-.vendas-pendentes .views-exposed-widgets .views-exposed-widget{
+.vendas-geral .views-exposed-widgets .views-exposed-widget{
 	width: 25%;	
-	margin: 0 0 10px 0;
+	margin: 0 0 10px 0;	
+	height: 75px;
 }
 
 .usuarios .views-exposed-widgets .views-exposed-widget select
-.vendas-concluidas .views-exposed-widgets .views-exposed-widget select,
-.vendas-pendentes .views-exposed-widgets .views-exposed-widget select{max-width: 250px;}
+.vendas-geral .views-exposed-widgets .views-exposed-widget select{max-width: 250px;}
 
 .usuarios table,
-.vendas-concluidas table,
-.vendas-pendentes table{
+.vendas-geral table{
 	width: 100%  !important; 
 	max-width: 100% !important; 
 	font-size: 11px !important;	
 }
 .usuarios table th,
-.vendas-concluidas table th,
-.vendas-pendentes table th{
+.vendas-geral table th{
 	padding: 10px;
 	text-align: center;
 	text-transform: uppercase;
 }
 .usuarios th.views-field.views-field-operations
-.pvendas-concluidas th.views-field.views-field-operations,
-.vendas-pendentes th.views-field.views-field-operations{min-width: 200px;}
+.vendas-geral th.views-field.views-field-operations{min-width: 200px;}
 
 .usuarios table a
-.vendas-concluidas table a,
-.vendas-pendentes table a{
+.vendas-geral table a{
 	color: #e7511e; 
 	font-weight: bold;
 }
 .usuarios table td,
-.vendas-concluidas table td,
-.vendas-pendentes table td{	
+.vendas-geral table td{	
 	background: #fff;
 	padding: 2px;
 	text-align: center;
 }
 
 .usuarios table tr.even td,
-.vendas-concluidas table tr.even td,
-.vendas-pendentes table tr.even td{background: #f5f5f5;}
+.vendas-geral table tr.even td{background: #f5f5f5;}
 
-.vendas-concluidas table table th.views-field-line-item-title{width: 50%;}
+.vendas-geral table table th.views-field-line-item-title{width: 50%;}
 
 .usuarios table td table thead,
 .usuarios table td table .views-field-commerce-total,
@@ -1029,7 +1021,7 @@ body.page-user,
 
 
 /*--- EDICAO DE UMA VENDA --------------------------------------------------------------------------*/
-/*.page-admin-commerce-orders-edit .tabs{display: none;}
+.page-admin-commerce-orders-edit .tabs,
 .page-admin-commerce-orders-edit .field-name-commerce-line-items caption,
 .page-admin-commerce-orders-edit .field-name-commerce-customer-billing,
 .page-admin-commerce-orders-edit .field-name-field-commerce-billy-cancel-date,
@@ -1037,13 +1029,21 @@ body.page-user,
 .page-admin-commerce-orders-edit .field-name-commerce-order-invoice-due-date,
 .page-admin-commerce-orders-edit .field-name-field-teste,
 .page-admin-commerce-orders-edit .field-name-commerce-customer-shipping{display: none;}
+
 .page-admin-commerce-orders-edit .field-name-commerce-line-items{margin-bottom: 25px;}
-.page-admin-commerce-orders-edit .form-item-status optgroup[label="Seus produtos"],
-.page-admin-commerce-orders-edit .form-item-status optgroup[label="Seus produtos"] *,
-.page-admin-commerce-orders-edit .form-item-status optgroup[label="Concluir Venda"],
-.page-admin-commerce-orders-edit .form-item-status optgroup[label="Concluir Venda"] *,
+
+.page-admin-commerce-orders-edit .form-item-status optgroup[label="Carrinho de Compras"],
+.page-admin-commerce-orders-edit .form-item-status optgroup[label="Carrinho de Compras"] *,
+.page-admin-commerce-orders-edit .form-item-status optgroup[label="Finalizar Compra"],
+.page-admin-commerce-orders-edit .form-item-status optgroup[label="Finalizar Compra"] *,
+.page-admin-commerce-orders-edit .form-item-status optgroup[label="Payment by Pagseguro"],
+.page-admin-commerce-orders-edit .form-item-status optgroup[label="Payment by Pagseguro"] *,
+.page-admin-commerce-orders-edit .form-item-status optgroup[label="Concluído"],
+.page-admin-commerce-orders-edit .form-item-status optgroup[label="Concluído"] *,
+.page-admin-commerce-orders-edit .form-item-status option[value="pending"],
 .page-admin-commerce-orders-edit .form-item-status option[value="processing"]{display: none;}
-.page-admin-commerce-orders-edit #edit-commerce-line-items-und-actions-product-sku{background-image: none;}*/
+
+.page-admin-commerce-orders-edit #edit-commerce-line-items-und-actions-product-sku{background-image: none;}
 
 
 /*--- PAGINA DE CONTATO -------------------------------------------------------------------------*/
