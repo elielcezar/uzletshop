@@ -68,11 +68,9 @@
   </div><!-- menu admin -->   
 
 
-
-	<div class="container container-principal">
-
-
-
+  <div class="container-principal">
+	
+  <div class="container">
 
   <div id="principal"> 
       
@@ -98,7 +96,7 @@
       
     
    
-              <div class="row"><?php print render($page['content']); ?></div>
+             <?php print render($page['content']); ?>
 
 
    
@@ -106,6 +104,7 @@
        
       </div><!-- principal -->
 	</div> <!-- container -->
+  </div> <!-- container -->
 
 <!-- FOOTER-->
 <footer>  
@@ -120,7 +119,7 @@
                 <span>
                   <a href="http://shop.uzlet.com.br">Home</a> <br />
                   <a href="http://shop.uzlet.com.br/smartphones">Smartphones</a> <br />
-                  <a href="http://shop.uzlet.com.br/sobre-o-uzlet">Sobre o Uzlet</a> <br />
+                  <a href="http://shop.uzlet.com.br/sobre-o-uzlet-shop">Sobre o Uzlet Shop</a> <br />
                   <a href="http://shop.uzlet.com.br/certificado-uzlet-de-garantia">Garantia</a> <br />                  
                   <a href="http://shop.uzlet.com.br/contato">Contato<br /> </a>
                 </span>

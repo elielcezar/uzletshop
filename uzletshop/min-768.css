@@ -23,21 +23,25 @@
 		top: 40px;
 		right: 0;
 		z-index: 50;
-		background: #fff;	
-		display: none;
+		background: #fff;			
 		padding: 10px;
 		box-shadow: 2px 2px 2px #888;
 		-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
 		border-radius: 5px;
 		border: 1px solid #ccc;
+			display: none;
 	}
 	
-	
 	/* exibe informaçõe no mouse over*/
+	header .carrinho:hover #block-commerce-cart-cart .cart-contents,
+	header .carrinho:hover #block-commerce-cart-cart .cart-empty-block{display:block;}
+
+
 	header .carrinho:hover .cart-contents .view-content,
 	header .carrinho:hover .cart-contents #topnav2,
 	header .carrinho:hover .cart-contents .line-item-total-label{display:block;}
+
 	header .carrinho:hover #block-commerce-cart-cart .cart-contents{
 		width: 400px;	
 		position: absolute;

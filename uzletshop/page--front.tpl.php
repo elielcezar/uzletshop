@@ -60,8 +60,8 @@
     </div>                                 
   </div><!-- menu admin -->   
 
-
-<div class="container container-principal">  
+<div class="container-principal">  
+<div class="container">  
 
     <div id="principal">
 
@@ -126,13 +126,14 @@
                   <div class="row">
                 <h3>Qual modelo você procura?</h3>
                 <ul>                                                            
-                <li class="iphone"><a href="marcas-smartphones/iphone">iPhone</a></li>
-                <li class="lg"><a href="marcas-smartphones/lg">LG</a></li>
-                <li class="motorola"><a href="marcas-smartphones/motorola">Motorola</a></li>
-                <li class="nokia"><a href="marcas-smartphones/nokia">Nokia</a></li>
-                <li class="samsung"><a href="marcas-smartphones/samsung">Samsung</a></li>
-                <li class="sony"><a href="marcas-smartphones/sony">Sony</a></li>
-                <li class="htc"><a href="marcas-smartphones/htc">HTC</a></li>
+                <li class="iphone"><a href="marcas-smartphones/iphone"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzletshop/images/ico_iphone.jpg" class="img-responsive" /></a></li>
+                <li class="lg"><a href="marcas-smartphones/lg"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzletshop/images/ico_smartphonelg.jpg" class="img-responsive" /></a></li>
+                <li class="motorola"><a href="marcas-smartphones/motorola"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzletshop/images/ico_smartphonemotorola.jpg" class="img-responsive" /></a></li>
+                <li class="nokia"><a href="marcas-smartphones/nokia"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzletshop/images/ico_smartphonenokia.jpg" class="img-responsive" /></a></li>
+                <li class="samsung"><a href="marcas-smartphones/samsung"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzletshop/images/ico_smartphonesamsung.jpg" class="img-responsive" /></a></li>
+                <li class="htc"><a href="marcas-smartphones/htc"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzletshop/images/ico_smartphonehtc.jpg" class="img-responsive" /></a></li>
+                <li class="sony"><a href="marcas-smartphones/sony"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzletshop/images/ico_smartphonesony.jpg" class="img-responsive" /></a></li>
+                
                 </ul>  
               </div>
                 </div>
@@ -184,6 +185,7 @@
       
     
     </div><!-- container -->     
+  </div><!-- container -->     
 </div><!-- principal -->
 
 <!-- FOOTER-->
@@ -199,7 +201,7 @@
                 <span>
                   <a href="http://shop.uzlet.com.br">Home</a> <br />
                   <a href="http://shop.uzlet.com.br/smartphones">Smartphones</a> <br />
-                  <a href="http://shop.uzlet.com.br/sobre-o-uzlet">Sobre o Uzlet</a> <br />
+                  <a href="http://shop.uzlet.com.br/sobre-o-uzlet-shop">Sobre o Uzlet Shop</a> <br />
                   <a href="http://shop.uzlet.com.br/certificado-uzlet-de-garantia">Garantia</a> <br />                  
                   <a href="http://shop.uzlet.com.br/contato">Contato<br /> </a>
                 </span>

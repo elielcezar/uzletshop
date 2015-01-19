@@ -1,6 +1,6 @@
 @media (max-width: 460px){
 
-/*--- TOPO --------------------------------*/	
+/*--- TOPO -----------------------------------------------------------*/	
 
 /* busca */
 header #block-views-exp-search-page-page form label{display: none;}
@@ -8,27 +8,23 @@ header #block-views-exp-search-page-page .views-submit-button .form-submit{
 	padding: 10px 8px;
 	font-size: 11px;
 }
-
-
 /* carrinho */
 header .carrinho #block-commerce-cart-cart .cart-contents table td{	padding: 10px 0;}
 header .carrinho #block-commerce-cart-cart .cart-contents .views-field-quantity{display: none;}
 
 
-/*--- PRINCIPAL -------------------------------*/
+
+/*--- PRINCIPAL ------------------------------------------------------*/
 
 /* banner facilidades */
 .front #principal .banner-facilidades{display: none;}
 
-/* modelos de smartphones */
-.front #principal .menu-modelos ul li{
-	width: 100%;
-	margin-bottom: 25px;
-}
+/* banners destaque */
+span.glyphicon{	top: -140px !important;}
 
 
 
-/* LOGIN */
+/*--- LOGIN ----------------------------------------------------------*/
 .page-user header,
 .page-user #principal,
 .page-user .container-principal,
@@ -40,7 +36,7 @@ header .carrinho #block-commerce-cart-cart .cart-contents .views-field-quantity{
 }
 
 
-/* PAGINA DE UM PRODUTO */
+/*--- PAGINA DE UM PRODUTO -------------------------------------------*/
 .node-type-smartphone .foto-produto{height: 240px;}
 
 .node-type-smartphone .panel-col-first{
@@ -52,6 +48,16 @@ header .carrinho #block-commerce-cart-cart .cart-contents .views-field-quantity{
 	margin: 0;	
 }	
 
+
+/*--- PAGINA DO CARRINHO -----------------------------------------------*/
+
+.page-cart .commerce-line-item-actions{text-align: center;}
+.page-cart .commerce-line-item-actions a.botao,
+.page-cart .commerce-line-item-actions input.form-submit{
+	width: 90%;
+	margin: 10px auto;	
+	display: inline-block;
+}
 
 
 
