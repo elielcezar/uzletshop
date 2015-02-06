@@ -32,14 +32,7 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-/*.wrapper{
-	max-width:1100px;
-	display:block;
-	margin-right:auto;
-	margin-left:auto;
-	background:#fff;		
-	border: 1px solid red;
-}	*/
+
 .container{	max-width:1100px !important;}
 .sub{padding:30px 0px 30px;}
 .totop{	margin-top:0px;}
@@ -128,6 +121,11 @@ a.botao{
 		color: #fff !important;
 		text-decoration: none !important;
 	}
+/* paginacao */
+ul.pager li a{
+	color: #e7511e;
+	font-weight: bold;
+}	
 /*--- TOPO ----------------------------------------------------------------------------------------*/
 header{		
 	float: left;
@@ -430,14 +428,7 @@ section#destaque .carousel{margin: 25px 0;}
 	cursor: pointer;
 	color: #000;	
 }
-	/*.front .menu-modelos ul li.iphone a{background: transparent url(images/ico_iphone.jpg) center center no-repeat}
-	.front .menu-modelos ul li.lg a{background: transparent url(images/ico_smartphonelg.jpg) center center no-repeat}
-	.front .menu-modelos ul li.motorola a{background: transparent url(images/ico_smartphonemotorola.jpg) center center no-repeat}
-	.front .menu-modelos ul li.nokia a{background: transparent url(images/ico_smartphonenokia.jpg) center center no-repeat}
-	.front .menu-modelos ul li.samsung a{background: transparent url(images/ico_smartphonesamsung.jpg) center center no-repeat}
-	.front .menu-modelos ul li.sony a{background: transparent url(images/ico_smartphonesony.jpg) center center no-repeat}
-	.front .menu-modelos ul li.htc a{background: transparent url(images/ico_smartphonehtc.jpg) center center no-repeat}
-*/
+	
 .front .menu-modelos ul li:hover a{
 	font-weight: bold;
 	color: #e7511e;
