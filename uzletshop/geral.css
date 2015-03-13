@@ -284,7 +284,10 @@ header .navbar ul li ul li{
 }
 header .navbar ul li ul li.active a{background-color: #e7511e !important;}
 header .navbar ul li ul li a:hover{background-color: #000 !important;}
+
+
 /*--- PRINCIPAL ------------------------------------------------------------------------------------*/
+
 /* menu admin */
 #menu-admin{
 	padding: 0; 	
@@ -297,15 +300,14 @@ header .navbar ul li ul li a:hover{background-color: #000 !important;}
 	background: #fff;
 }
 #menu-admin .navbar-collapse{margin: 0; padding: 0;}
-#menu-admin ul{	
-	background: #f5f5f5;
-}
+
 #menu-admin li{
 	float: left; 	
 	padding: 0;
-	margin: 0;
-	width: 25%;
+	margin: 0 .5%;
+	width: 19%;
 	text-align: center;
+	background: #f5f5f5;
 }
 #menu-admin li a{
 	padding: 7px;	
@@ -797,6 +799,7 @@ body.page-user,
 /* editar conta do usuario */
 .page-user #edit-locale{display: none}
 .page-user-me-edit #edit-mimemail{display: none;}
+
 /*--- PAGINA DE UMA VENDA ESPECIFICA ---------------------------------------------------------------*/
 .page-vendas table tr.component-type-base-price,
 .page-vendas table tr.component-type-shipping{display: none;}
@@ -804,47 +807,7 @@ body.page-user,
 	width: 148px;	
 	text-align: left;
 }
-/*.page-vendas .messages.error{display: none;}
-.page-vendas #principal h2{
-	font-size: 21px;
-	padding: 5px 0 5px 25px;	
-	float: left;
-	width: 100%;
-	background: transparent url(images/icon_phone.png) center left no-repeat;
-}
-.page-vendas #principal .views-row .views-field{
-	margin-bottom: 7px; 
-	float: left; 
-	width: 100%;
-}
-.page-vendas #principal .views-label{
-	display: inline-block;
-	float: left;
-	width: 140px;
-	font-weight: bold;
-	text-align: right;
-	margin-right: 7px;
-}
-.page-vendas #principal table{width: 100%; float: left;}
-.page-vendas #principal table th{
-	padding: 10px;
-	text-align: center;
-	text-transform: uppercase;
-}
-.page-vendas #principal table a{color: #e7511e; font-weight: bold;}
-.page-vendas #principal table td{	
-	background: #fff;
-	padding: 7px;	
-	text-align: center;
-}
-.page-vendas #principal table tr.even td{background: #f5f5f5;}
-.page-vendas #principal table tbody tr td:nth-child(1){text-align: left;}
-.page-vendas #principal td.component-total{
-	font-weight: bold; 
-	text-align: right;
-	padding-right: 28px;
-}
-.page-vendas #principal .view-footer{float: left; width: 100%; }*/
+
 /*--- PAGINA LISTANDO TODAS AS VENDAS DO SITE -------------------------------------------------------*/
 .usuarios div.container.container-principal,
 .vendas-geral div.container.container-principal,
@@ -897,32 +860,14 @@ body.page-user,
 .usuarios table td table thead,
 .usuarios table td table .views-field-commerce-total,
 .usuarios table td table .views-field-quantity,
-/*.vendas-concluidas table td table thead,
-.vendas-concluidas table td table .views-field-commerce-total,
-.vendas-concluidas table td table .views-field-quantity,
-.vendas-pendentes table td table thead,
-.vendas-pendentes table td table .views-field-commerce-total,
-.vendas-pendentes table td table .views-field-quantity{display: none;}*/
-/*--- PAGINA LISTANDO TODOS OS USUARIOS DO SITE -------------------------------------------------------*/
-/*.page-usuarios .views-exposed-widgets .views-exposed-widget{
-	width: 20%;	
-	margin: 0 0 10px 0;
+
+/*--- LISTA DE TODOS OS PRODUTOS ------------------------------------------------------------------*/
+body.lista-produtos .container-principal{
+	max-width: 100%;
+	width: 100%;
 }
-.page-usuarios .views-exposed-widgets .views-exposed-widget input{max-width: 180px;}
-.page-usuarios table{width: 100%;}
-.page-usuarios table th{
-	padding: 10px;
-	text-align: center;
-	text-transform: uppercase;
-}
-.page-usuarios table a{color: #e7511e; font-weight: bold;}
-.page-usuarios table td{	
-	background: #fff;
-	padding: 7px;
-	text-align: center;
-}
-.page-usuarios table tr.even td{background: #f5f5f5;}
-.page-usuarios table tr td:nth-child(7){text-align: left;}*/
+
+
 /*--- EDICAO DE UMA VENDA --------------------------------------------------------------------------*/
 .page-admin-commerce-orders-edit .tabs,
 .page-admin-commerce-orders-edit .field-name-commerce-line-items caption,
@@ -944,8 +889,10 @@ body.page-user,
 .page-admin-commerce-orders-edit .form-item-status option[value="pending"],
 .page-admin-commerce-orders-edit .form-item-status option[value="processing"]{display: none;}
 .page-admin-commerce-orders-edit #edit-commerce-line-items-und-actions-product-sku{background-image: none;}
+
 /*--- PAGINA DE CONTATO -------------------------------------------------------------------------*/
 .page-node-done #principal .links{display: none;}
+
 /*--- RODAPE -------------------------------------------------------------------------------------*/
 footer{
 	width: 100%;	
